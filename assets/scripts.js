@@ -21,10 +21,13 @@ function deleteRow(r) {
     }
 }
 
+
+
+
 function raizcuadrada() {
   var nroot = prompt("Escribe un número para conocer su raiz cuadrada")
-  if (nroot != null)
-   document.getElementById('demo').innerHTML=
-   Math.sqrt(number)
-
+  if (nroot != null){
+    resultado = Math.sqrt(nroot)
+    alert('La raíz cuadrada de ' + nroot + 'es ' + resultado)
+  }
 }
